@@ -372,215 +372,214 @@ void letter::getVertexArray(float k){
     VertexArray[27][0]=0.25*k;
     VertexArray[27][1]=0;
     VertexArray[27][2]=-0.25*k;
-
-    VertexArray[28][0]=0.25*k;
-    VertexArray[28][1]=0;
-    VertexArray[28][2]=0;
 //palka
-    VertexArray[29][0]=0.25*k;
+    VertexArray[28][0]=0;
+    VertexArray[28][1]=2*k;
+    VertexArray[28][2]=-0.25*k;
+
+    VertexArray[29][0]=0;
     VertexArray[29][1]=2*k;
     VertexArray[29][2]=0;
 
-    VertexArray[30][0]=0.25*k;
-    VertexArray[30][1]=1.75*k;
+    VertexArray[30][0]=-1*k;
+    VertexArray[30][1]=2*k;
     VertexArray[30][2]=0;
 
-    VertexArray[31][0]=0.25*k;
-    VertexArray[31][1]=1.75*k;
+    VertexArray[31][0]=-1*k;
+    VertexArray[31][1]=2*k;
     VertexArray[31][2]=-0.25*k;
 
-    VertexArray[32][0]=0.25*k;
+    VertexArray[32][0]=0;
     VertexArray[32][1]=2*k;
     VertexArray[32][2]=-0.25*k;
+// verh + 3 vniz
+    VertexArray[33][0]=0;
+    VertexArray[33][1]=1.75*k;
+    VertexArray[33][2]=-0.25*k;
 
-    VertexArray[33][0]=0.25*k;
-    VertexArray[33][1]=2*k;
-    VertexArray[33][2]=0;
-//
-    VertexArray[34][0]=0.25*k;
-    VertexArray[34][1]=1*k;
-    VertexArray[34][2]=0;
+    VertexArray[34][0]=-1*k;
+    VertexArray[34][1]=1.75*k;
+    VertexArray[34][2]=-0.25*k;
 
-    VertexArray[35][0]=0.25*k;
-    VertexArray[35][1]=1*k;
+    VertexArray[35][0]=-1*k;
+    VertexArray[35][1]=2*k;
     VertexArray[35][2]=-0.25*k;
+//
+    VertexArray[36][0]=-1*k;
+    VertexArray[36][1]=2*k;
+    VertexArray[36][2]=0;
 
-    VertexArray[36][0]=1.25*k;
-    VertexArray[36][1]=1*k;
-    VertexArray[36][2]=-0.25*k;
-
-    VertexArray[37][0]=1.25*k;
-    VertexArray[37][1]=1*k;
+    VertexArray[37][0]=-1*k;
+    VertexArray[37][1]=1.75*k;
     VertexArray[37][2]=0;
 
-    VertexArray[38][0]=0.25*k;
-    VertexArray[38][1]=1*k;
+    VertexArray[38][0]=0;
+    VertexArray[38][1]=1.75*k;
     VertexArray[38][2]=0;
 
-    VertexArray[39][0]=0.25*k;
-    VertexArray[39][1]=1*k;
+    VertexArray[39][0]=0;
+    VertexArray[39][1]=2*k;
     VertexArray[39][2]=0;
-
-    VertexArray[40][0]=0.25*k;
-    VertexArray[40][1]=1*k;
-    VertexArray[40][2]=-0.25*k;
-
-    VertexArray[41][0]=1.25*k;
-    VertexArray[41][1]=1*k;
-    VertexArray[41][2]=-0.25*k;
-
-    VertexArray[42][0]=1.25*k;
-    VertexArray[42][1]=1*k;
-    VertexArray[42][2]=0;
-
-    VertexArray[43][0]=0.25*k;
-    VertexArray[43][1]=1*k;
-    VertexArray[43][2]=0;
-
-    VertexArray[44][0]=0.25*k;
-    VertexArray[44][1]=1*k;
-    VertexArray[44][2]=-0.25*k;
 //
-    VertexArray[45][0]=0.25*k;
-    VertexArray[45][1]=1.25*k;
+    VertexArray[40][0]=-1*k;
+    VertexArray[40][1]=2*k;
+    VertexArray[40][2]=0;
+
+    VertexArray[41][0]=-1*k;
+    VertexArray[41][1]=1*k;
+    VertexArray[41][2]=0;
+
+    VertexArray[42][0]=-1*k;
+    VertexArray[42][1]=1*k;
+    VertexArray[42][2]=-0.25*k;
+
+    VertexArray[43][0]=-1*k;
+    VertexArray[43][1]=2*k;
+    VertexArray[43][2]=-0.25*k;
+//
+    VertexArray[44][0]=-1*k;
+    VertexArray[44][1]=1*k;
+    VertexArray[44][2]=0;
+
+    VertexArray[45][0]=-1*k;
+    VertexArray[45][1]=1*k;
     VertexArray[45][2]=-0.25*k;
 
-    VertexArray[46][0]=1.25*k;
-    VertexArray[46][1]=1.25*k;
+    VertexArray[46][0]=0;
+    VertexArray[46][1]=1*k;
     VertexArray[46][2]=-0.25*k;
 
-    VertexArray[47][0]=1.25*k;
+    VertexArray[47][0]=0;
     VertexArray[47][1]=1*k;
-    VertexArray[47][2]=-0.25*k;
-
-    VertexArray[48][0]=0.25*k;
-    VertexArray[48][1]=1*k;
-    VertexArray[48][2]=-0.25*k;
+    VertexArray[47][2]=0;
 //
-    VertexArray[49][0]=0.25*k;
-    VertexArray[49][1]=1*k;
-    VertexArray[49][2]=0;
+    VertexArray[48][0]=0;
+    VertexArray[48][1]=1.25*k;
+    VertexArray[48][2]=0;
 
-    VertexArray[50][0]=1.25*k;
-    VertexArray[50][1]=1*k;
-    VertexArray[50][2]=0;
+    VertexArray[49][0]=0;
+    VertexArray[49][1]=1.25*k;
+    VertexArray[49][2]=-0.25*k;
 
-    VertexArray[51][0]=1.25*k;
+    VertexArray[50][0]=-0.75*k;
+    VertexArray[50][1]=1.25*k;
+    VertexArray[50][2]=-0.25*k;
+
+    VertexArray[51][0]=-0.75*k;
     VertexArray[51][1]=1.25*k;
     VertexArray[51][2]=0;
-
-    VertexArray[52][0]=1.25*k;
+//
+    VertexArray[52][0]=-0.75*k;
     VertexArray[52][1]=1.25*k;
-    VertexArray[52][2]=-0.25*k;
+    VertexArray[52][2]=0;
 
-    VertexArray[53][0]=1.25*k;
-    VertexArray[53][1]=1*k;
-    VertexArray[53][2]=-0.25*k;
+    VertexArray[53][0]=-0.75*k;
+    VertexArray[53][1]=1.75*k;
+    VertexArray[53][2]=0;
 
-    VertexArray[54][0]=1.25*k;
-    VertexArray[54][1]=1*k;
-    VertexArray[54][2]=0;
+    VertexArray[54][0]=-0.75*k;
+    VertexArray[54][1]=1.75*k;
+    VertexArray[54][2]=-0.25*k;
 
-    VertexArray[55][0]=0.25*k;
-    VertexArray[55][1]=1*k;
-    VertexArray[55][2]=0;
+    VertexArray[55][0]=-0.75*k;
+    VertexArray[55][1]=1.25*k;
+    VertexArray[55][2]=-0.25*k;
 // ??
-    VertexArray[56][0]=0.25*k;
-    VertexArray[56][1]=1.25*k;
+    VertexArray[56][0]=0;
+    VertexArray[56][1]=1*k;
     VertexArray[56][2]=0;
 
-    VertexArray[57][0]=1.25*k;
+    VertexArray[57][0]=0;
     VertexArray[57][1]=1.25*k;
     VertexArray[57][2]=0;
 
-    VertexArray[58][0]=1.25*k;
-    VertexArray[58][1]=1*k;
+    VertexArray[58][0]=-1*k;
+    VertexArray[58][1]=1.25*k;
     VertexArray[58][2]=0;
 
-    VertexArray[59][0]=0.25*k;
+    VertexArray[59][0]=-1*k;
     VertexArray[59][1]=1*k;
     VertexArray[59][2]=0;
 //
-    VertexArray[60][0]=0.25*k;
+    VertexArray[60][0]=-1*k;
     VertexArray[60][1]=1.25*k;
     VertexArray[60][2]=0;
 
-    VertexArray[61][0]=0.25*k;
-    VertexArray[61][1]=1.25*k;
-    VertexArray[61][2]=-0.25*k;
+    VertexArray[61][0]=-1*k;
+    VertexArray[61][1]=1.75*k;
+    VertexArray[61][2]=0;
 
-    VertexArray[62][0]=1.25*k;
-    VertexArray[62][1]=1.25*k;
-    VertexArray[62][2]=-0.25*k;
+    VertexArray[62][0]=-0.75*k;
+    VertexArray[62][1]=1.75*k;
+    VertexArray[62][2]=0;
 
-    VertexArray[63][0]=1.25*k;
+    VertexArray[63][0]=-0.75*k;
     VertexArray[63][1]=1.25*k;
     VertexArray[63][2]=0;
-
-    VertexArray[64][0]=0.25*k;
-    VertexArray[64][1]=1.25*k;
-    VertexArray[64][2]=0;
 //
-    VertexArray[65][0]=0.25*k;
-    VertexArray[65][1]=1.25*k;
-    VertexArray[65][2]=0;
+    VertexArray[64][0]=-0.25*k;
+    VertexArray[64][1]=1*k;
+    VertexArray[64][2]=0;
 
-    VertexArray[66][0]=0.25*k;
-    VertexArray[66][1]=1.25*k;
-    VertexArray[66][2]=0;
+    VertexArray[65][0]=-0.25*k;
+    VertexArray[65][1]=1*k;
+    VertexArray[65][2]=-0.25*k;
 
-    VertexArray[67][0]=0.25*k;
-    VertexArray[67][1]=1.75*k;
+    VertexArray[66][0]=-1*k;
+    VertexArray[66][1]=0;
+    VertexArray[66][2]=-0.25*k;
+
+    VertexArray[67][0]=-1*k;
+    VertexArray[67][1]=0;
     VertexArray[67][2]=0;
+//
+    VertexArray[68][0]=0;
+    VertexArray[68][1]=1*k;
+    VertexArray[68][2]=0;
 
-    VertexArray[68][0]=0.25*k;
-    VertexArray[68][1]=1.75*k;
-    VertexArray[68][2]=-0.25*k;
-
-    VertexArray[69][0]=1.25*k;
-    VertexArray[69][1]=1.75*k;
+    VertexArray[69][0]=0;
+    VertexArray[69][1]=1*k;
     VertexArray[69][2]=-0.25*k;
 
-    VertexArray[70][0]=1.25*k;
-    VertexArray[70][1]=1.75*k;
-    VertexArray[70][2]=0;
+    VertexArray[70][0]=-0.75*k;
+    VertexArray[70][1]=0;
+    VertexArray[70][2]=-0.25*k;
 
-    VertexArray[71][0]=0.25*k;
-    VertexArray[71][1]=1.75*k;
+    VertexArray[71][0]=-0.75*k;
+    VertexArray[71][1]=0;
     VertexArray[71][2]=0;
 //
-    VertexArray[72][0]=0.25*k;
-    VertexArray[72][1]=2*k;
+    VertexArray[72][0]=0;
+    VertexArray[72][1]=1*k;
     VertexArray[72][2]=0;
 
-    VertexArray[73][0]=1.25*k;
-    VertexArray[73][1]=2*k;
+    VertexArray[73][0]=-0.25*k;
+    VertexArray[73][1]=1*k;
     VertexArray[73][2]=0;
 
-    VertexArray[74][0]=1.25*k;
-    VertexArray[74][1]=1.75*k;
+    VertexArray[74][0]=-1*k;
+    VertexArray[74][1]=0;
     VertexArray[74][2]=0;
 
-    VertexArray[75][0]=0.25*k;
-    VertexArray[75][1]=1.75*k;
+    VertexArray[75][0]=-0.75*k;
+    VertexArray[75][1]=0;
     VertexArray[75][2]=0;
-
-
+//
     VertexArray[76][0]=0;
-    VertexArray[76][1]=0;
-    VertexArray[76][2]=0;
+    VertexArray[76][1]=1*k;
+    VertexArray[76][2]=-0.25*k;
 
-    VertexArray[77][0]=0;
-    VertexArray[77][1]=0;
-    VertexArray[77][2]=0;
+    VertexArray[77][0]=-0.25*k;
+    VertexArray[77][1]=1*k;
+    VertexArray[77][2]=-0.25*k;
 
-    VertexArray[78][0]=0;
+    VertexArray[78][0]=-1*k;
     VertexArray[78][1]=0;
-    VertexArray[78][2]=0;
+    VertexArray[78][2]=-0.25*k;
 
-    VertexArray[79][0]=0;
+    VertexArray[79][0]=-0.75*k;
     VertexArray[79][1]=0;
-    VertexArray[79][2]=0;
+    VertexArray[79][2]=-0.25*k;
 
 
 }
